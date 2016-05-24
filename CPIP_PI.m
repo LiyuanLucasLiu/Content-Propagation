@@ -1,8 +1,8 @@
 function [cy, cent] = CPIP_PI( c, f, l, lambda )
 %this is an application of CPIP_PI
 %	Input	:	c 		: 	the number of communities;
-% 				f 		: 	the feature of notes, a n * m metrix;
-% 				l 		: 	the topogical structure of the network, a n * n metrix;
+% 				f 		: 	the feature of nodes, a n * d matrix;
+% 				l 		: 	the topogical structure of the network, a n * n matrix;
 % 				lambda 	: 	the parameter of CPIP_PI;
 %	Output	:	cy 		:	the idx of detected communities
 %				cent	:	the expectation of received centent propagation	
