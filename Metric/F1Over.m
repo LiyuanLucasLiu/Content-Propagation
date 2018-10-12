@@ -20,7 +20,7 @@ if(size(y, 2)>1 && size(y, 1)>1)
         re= max(F1rec);
         si= zeros(1, m);
         for i=1:m
-            si(i)= sum(cy(i,:));
+            si(i)= sum(cy==i);
         end
         ff= sum(re.*si)/sum(si);
     end
